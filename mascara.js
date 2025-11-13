@@ -22,7 +22,7 @@
     }
 
     async fetchJsonData() {
-      const url = 'https://raw.githubusercontent.com/Alvarothe/site-tester/refs/heads/main/mensagens.json';
+      const url = 'https://raw.githubusercontent.com/ianvictor/brisa/refs/heads/main/atendimento.js';
       try {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Erro HTTP! Status: ${response.status}`);
